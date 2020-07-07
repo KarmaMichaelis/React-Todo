@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(){
     super();
     this.state={
-      task:'c',
+      task:'',
       complete:'false',
       id:Date.now()
     }
