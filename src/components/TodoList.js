@@ -5,7 +5,17 @@ import React from 'react';
 
 ///try class extending
 
-const TodoList=props=><h4>Hello</h4>
+const TodoList=props=>{
+    return(
+        <div className='todoList'>
+            <h3>{props.propsList}</h3>
+            
+      
+      
+  
+        </div>
+    )
+}
 
 
 

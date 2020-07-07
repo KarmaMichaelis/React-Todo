@@ -2,18 +2,7 @@ import React from 'react';
 import TodoList from './components/TodoList.js'
 import TodoForm from './components/TodoForm'
 
-const list=[
-      {
-          task:'Bake Cookies',
-          completed:'falsed',
-          id:Date.now()
-      },
-      {
-          task:'Wash Dog',
-          completed:'falsed',
-          id:Date.now()
-      }
-  ]
+
 
 class App extends React.Component {
   // you will need a place to store your state in this component.
@@ -22,14 +11,16 @@ class App extends React.Component {
   constructor(){
     super();
     this.state={
-      list:list
+      task:'c',
+      complete:'false',
+      id:Date.now()
     }
   }
   render() {
     return (
       <div className='App'>
         <h2>Welcome to your Todo App!</h2>
-        <TodoList list={this.state.list}/>
+        <TodoList propsList={this.state.id}/>
         <TodoForm/>
       </div>
     );
