@@ -3,7 +3,7 @@
 
 import React from 'react';
 
-
+///try class extending
 
 const TodoList=props=><h4>{props.propsList}</h4>
 
