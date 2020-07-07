@@ -5,20 +5,8 @@ import React from 'react';
 
 ///try class extending
 
-const TodoList=props=><h4>{props.propsList}</h4>
+const TodoList=props=><h4>Hello</h4>
 
-// const list=[
-//     {
-//         task:'Bake Cookies',
-//         completed:'falsed',
-//         id:Date.now()
-//     },
-//     {
-//         task:'Wash Dog',
-//         completed:'falsed',
-//         id:Date.now()
-//     }
-// ]
 
 
 
